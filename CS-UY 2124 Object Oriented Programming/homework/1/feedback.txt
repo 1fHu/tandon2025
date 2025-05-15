@@ -1,0 +1,7 @@
+Deductions:
+-1: did not get rid of newline after the int is read (debug program to see that index 0 contains "")
+-1 missing function prototypes
+-2 incorrect test for capitalization should not be using the function isupper()
+
+Warnings:
+- ensure that comments on function definitions include (1. Description, 2. Parameters, 3. Return Type)

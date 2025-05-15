@@ -1,0 +1,1 @@
+g++ -Wall -std=c++17 hw07.cpp Noble.h Noble.cpp .\Warrior.cpp .\Warrior.h -o assignment
