@@ -1,0 +1,35 @@
+UBRR
+
+决定Baud rate 9600
+f osc = fcpu = 8MHz
+
+UDRn
+able to read or write
+
+USART
+
+UBRRL UBRRH
+
+practice code:
+115.2k
+UCSR1A: only speed doubled
+UCSR1B:  RX and TX enabled 
+UCSR1C: asymmetric default and 8 databits, 1 stop bit and no parity
+UBRR1 = 8, 
+
+Arduino
+Use arduino
+Serial_8N1
+
+Serial1.begin(115200, SERIAL_8N1) 后半可省略
+
+All above is set up
+
+byte myData 
+
+belong is loop
+if (Serial1.available())
+myData= Serial1.read();
+Serial1.write(myData)
+
+

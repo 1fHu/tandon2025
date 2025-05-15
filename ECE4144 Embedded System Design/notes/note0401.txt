@@ -1,0 +1,15 @@
+pulled I/O
+to interrupt based I/O
+
+当硬件信息发生变化时，执行程序
+正常不运行
+程序：ISR
+变化：trigger
+
+
+sei()
+cli()
+
+2things to do
+PCIE
+PCINT
